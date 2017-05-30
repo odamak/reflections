@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    The bug could be easily detected when viewing a diff between 2 files
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I can see how I evoluate as a programmer and as a thinker from version
+    to version, I can even get inspired from early versions
+    I actually realized that I use life version control
+    which means that I write how I feel at least 2 or 3 or 4 times a month
+    this enables me keep track of my feelings, emotions, thoughts
+    and see how I can evoluate with that or bypass a current thing
+    that I already faced during the past
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pros is that you do the commit only when there is a logical change
+    cons is that when you're perfectionist, the word "logical" change might
+    lead you to commit only after big changes, which might end up after days
+    of coding, this is why having versions automatically saved can be a solution sometimes 
+    to sum up, making commit after logical changes + adding a deadline of 2 to 3 coding days for instance, might be a good option to consider
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because it makes no sense having a constraint to save only one file per
+    commit, knowing that a lots of time, when making changes, related
+    files get changed, and keeping track of change that occured on related
+    files is critical when tracking the evolution of an app
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log, applied at a git repository, gives all the history of changes
+    that has been made
+    git diff [id1] [id2] gives the difference between 2 changes made
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Knowing that at any moment I can come back to previous version makes it
+    more easy and gives more confidence to make even critical changes
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Continue the course to see other possibilities
