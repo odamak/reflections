@@ -32,17 +32,27 @@ use one instead of another?
     - Use branch when working on a project on personal computer and when
     wanting to experiment things without interferring with the current version
 
-    Fill in your answer here
-
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    The benefit of having a copy of the last know state of the remote
+    stored locally is:
+    Be able to run a diff to compare changes that have been made with the
+    current local version
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Collaborating without GitHub would be a real challenge
+    With pull request, everything gets easier
+    wanna someone see your change?
+    Create a new branch, commit changes on that branch
+    push changes on new branch on github
+    and create a pull request (meaning: collaborator, please pull to
+    your computer my changes)
+    if approved, collaborator will approve the pull request and merge will occur
+    with master
+    Life is beautiful :)
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
