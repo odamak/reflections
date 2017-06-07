@@ -14,9 +14,6 @@ automatically stay up-to-date with your remote repository?
     Pulling changes automatically might create conflict
     Because I might be working on files that has been changed on remote
     pulling them will create conflict (as we saw on branches)
-    (now I will add this line just to push and see if name of commit
-    previous to one that will be created on cloud will change or not
-    as I changed it on local)
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
