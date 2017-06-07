@@ -9,6 +9,7 @@ automatically stay up-to-date with your remote repository?
     In case I have changes on my local repository and pulling from remote
     maybe I lose my changes, right? Still need to be checked
     Change made from cloud
+    And I added a line from computer then pushed
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
