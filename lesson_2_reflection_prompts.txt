@@ -12,16 +12,47 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	git diff --staged
+	Using that instruction enables you to check difference between staging
+	and last commit, therefore check there is only one logical change done
+	before committing
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	Branches are great to run experiments which would be at that moment
+	not directly related to the evolution of the app
 
 How do the diagrams help you visualize the branch structure?
+	Diagrams shows exactly at which commit there were a branch created
+	+ diagrams shows the relation of each commit to its parent
+	Diagrams offer a better global view of the evolution of different
+	features or bug fixes of an app
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	Lets take the following example
+			BCE \
+	ABCD /			CEF
+	     \  CDF /
+	Merging two branches together will keep the common lines,
+	add lines that were newly introduced in branch 1
+	(here E was newly introduced in branch 1 so we'll keep it)
+	add lines that were newly introduced in branch 2
+	(here F was newly introduced in branch 2 so we'll keep it)
+	delete lines that were present in parent node
+	and that were deleted in either branch 1 or 2
+	(here A was deleted in branch 1 and 2 so not included
+	B deleted in branch 2 so will not be included
+	D deleted in branch 1 so will not be included)
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
-
+	Automatic merging
+	Pros: It adds up all the independent modifications
+	Cons: Conflicts arise when interrelated parts are modified in 2 seperate
+	branches
+	Manually
+	Pros: Know exactly what to do when interrelated parts modified
+	Cons: Having to manually add things up when git can do it
+	(in case of independent features for instance)
 
